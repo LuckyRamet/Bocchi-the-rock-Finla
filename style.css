@@ -1,0 +1,153 @@
+body{
+  color: white;
+  display: grid;
+  place-content: center;
+  min-height: 80vh;
+  font-family: 'Roboto', sans-serif;
+}
+.cards{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+}
+.card{
+  border-radius: 2rem;
+  min-width: 15rem;
+  min-height: 15rem;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.name{
+  position: absolute;
+  font-size: 3rem;
+  font-weight: 800;
+  top: 5rem;
+  line-height: 0.8;
+  transition: all 0.25s ease-in-out;
+}
+.bg{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  transition: all 0.25s ease-in-out;
+}
+.main{
+  position: absolute;
+  z-index: 999;
+  transform: translateX(2rem);
+  transition: all 0.25s ease-in-out;
+}
+.card:hover > .bg{
+  transform: scaleY(0);
+}
+.card:hover > .main{
+  transform: translateX(10rem);
+}
+.card:hover{
+  min-width: 20rem;
+}
+.card:hover > .name{
+  font-size: 4.2rem;
+}
+
+
+ body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  h1{
+    color: brown;
+    background-color: azure;
+  }
+  body{
+    color: white;
+    display: grid;
+    place-content: center;
+    min-height: 80vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  .cards{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+  }
+  .card{
+    border-radius: 2rem;
+    min-width: 15rem;
+    min-height: 15rem;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+  }
+  .name{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 800;
+    top: 5rem;
+    line-height: 0.8;
+    transition: all 0.25s ease-in-out;
+  }
+  .bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    transition: all 0.25s ease-in-out;
+  }
+  .main{
+    position: absolute;
+    z-index: 999;
+    transform: translateX(2rem);
+    transition: all 0.25s ease-in-out;
+  }
+  .card:hover > .bg{
+    transform: scaleY(0);
+  }
+  .card:hover > .main{
+    transform: translateX(10rem);
+  }
+  .card:hover{
+    min-width: 20rem;
+  }
+  .card:hover > .name{
+    font-size: 4.2rem;
+  }
+  .h{
+    border-radius: 50%;}
+    
+  body, html ,h1, h2,h4{
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  .box, .box1, .box2,.box3,.box4,.box5,.box6{
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px 5px, rgba(0, 0, 0, 0.04) 0px 10px 10px 5px;
+    background-color: #fff
+  }
+  body, html ,h1, h2,h4{
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  .box, .box1, .box2,.box3,.box4,.box5,.box6{
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px 5px, rgba(0, 0, 0, 0.04) 0px 10px 10px 5px;
+    background-color: #fff}
+  .mi{
+    color: #a71616;;
+  }
+
+    
